@@ -19,6 +19,8 @@ ul{
     justify-content: space-between;
     gap: 30px;
     list-style: none;
+    font-family: "nunito";
+    font-weight: 800;
 }
 
 .heroSection{
@@ -33,11 +35,14 @@ ul{
 
     p{
         color: #D93020;
+        padding: 0;
+        margin: 0;
     }
     h1{
         font-size: 60px;
         font-weight: 800;
         line-height: 72px;
+        margin: 0;
       
     }
     button{
@@ -69,9 +74,9 @@ ul{
         width: 380px;
         height: 400px;
         position: absolute;
-        left: 600px;
-        top: 320px;
-        z-index:  1;
+       right: 20px;
+        top: 200px;
+        z-index:  -1;
     }
 }
 .img{
@@ -88,27 +93,31 @@ ul{
 .section{
     width: 100%;
     height: 526px;
-    margin-top:50px;
+    /* margin-top:50px; */
     background-color: #000;
     z-index: 1;
 
     h2{
-        width: 1200px;
-        margin: 20px auto;
+        display: inline-block;
         color: white;
         font-size: 44px;
         font-weight: 800;
-        padding: 150px 0 0 0;
+        padding: 130px 0 0 0;
+        margin: 0;
     }
     p{
         width: 1200px;
-        margin: 20px auto;
+        margin: 0 auto;
         color: #fff;
         font-size: 18px;
         font-weight: 500;
-        padding: 50px 0 0 0;
+        padding: 50px 0;
         line-height: 30px;
     }
+}
+.sectionTitle{
+    width: 1200px;
+    margin: 20px auto;
 }
 
 .btnc{
@@ -122,6 +131,7 @@ ul{
         font-weight: 800;
         text-align: center;
         padding: 60px 0;
+        margin: 0;
 
 
     }
@@ -133,13 +143,15 @@ ul{
 .ourJourney{
     width: 1200px;
     height: 100%;
-    margin: 20px auto;
+    margin: 0px auto;
     h3{
         font-size: 60px;
         font-weight: 800;
         position: relative;
         top: 150px ;
         left: 35px;
+        margin: 0;
+        width: 30%;
 
     }
 
@@ -156,7 +168,7 @@ ul{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 50px;
+    margin: 20px;
     
  }
 
@@ -191,24 +203,30 @@ ul{
     background-image: url(./img/client.png);
     background-repeat: no-repeat;
     background-position: right;
-    margin: 60px 0;
+    margin: 40px 0;
     width: 100vw;
     height: 600px;
     background-color: #000  ;
 
-    h4{
+    .clientTitle{
         width: 1200px;
-        margin: 20px auto;
+        margin: 0px auto;
+        padding: 30px 0;
+    }
+    h4{
+        width: 60%;
         color: white;
         font-size: 50px;
         font-family: "Nunito", sans-serif;
-        padding-top: 90px;
+        /* padding-top: 90px; */
+        margin: 0;
     }
     .ptitle{
-        width: 65vw;
-        padding: 5px 200px;
+        width: 60vw;
+        padding: 30px 100px;
         color: #6E6E7A;
         font-size: 20px;
+        margin: 0;
 
     }
     i{
@@ -216,25 +234,30 @@ ul{
         font-size: 60px;
         position: relative;
         top: 60px;
-        left: 90px;
+        left: 15px;
     }
     .pgr{
+        width: 30%;
         font-size: 13px;
-        padding: 0 200px ;
+        padding: 10px 100px ;
         color: #6E6E7A;
+        font-weight: 500;
+        margin: 0;
+        
     }
     h5{
-        width: 1200px;
-        padding: 0 200px;
+        width: 30%;
+        padding: 0px 100px ;
         color: white;
         font-size: 25px;
+        margin: 0;
         
     }
 }
 
 .information{
     width: 1200px;
-    margin: 30px auto;
+    margin: 50px auto;
     height: 500px;
 
     display: flex;
@@ -243,17 +266,21 @@ ul{
 }
 .infleftArea{
     width: 1200px;
-    margin: 60px auto;
+    margin: 0px auto;
     /* padding: 50px 0; */
     color: black;
+
            
-    font-weight: bold;
+    /* font-weight: bold; */
 
     h1{
-        padding-bottom: 190px;
+        width: 90%;
         font-family: "Nunito", sans-serif;
         font-size: 45px;
         font-weight: 800;
+        margin: 0;
+        line-height: 70px;
+        
         
     }
 }
@@ -276,7 +303,7 @@ footer{
     .footer{
         width: 1200px;
         height: 300px;
-        margin: 20px auto;
+        margin: 0px auto;
         padding: 30px 0;
         display: flex;
         justify-content: space-around;
