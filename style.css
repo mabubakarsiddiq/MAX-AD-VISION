@@ -5,6 +5,7 @@
 }
 body{
     overflow-x: hidden;
+
     
     font-family: "Nunito", sans-serif;
 }
@@ -12,12 +13,12 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100;
     margin: 20px  40px;
 }
-#navBars{
-    display: none;
+.navBars{
+    display: none !important ; 
     font-size: 25px;
+    color: black;
 }
     
 ul{
@@ -28,28 +29,28 @@ ul{
     font-family: "nunito";
     font-weight: 800;
 }
-@media screen and (max-width: 900px){
-    #navBars{
-        display: inline;
-        color: black;
-    
+@media screen and (max-width: 992px){
 
-    }
     ul{
         display: none;
     }
+    .navBars{
+        display: block !important ;
+        color: black;
+    }
+
 }
 
 .heroSection{
-    width: 100vw;
+    /* width: 100vw; */
     height: 100%;
-    margin: 20px  40px;
-    display: flex;
-    justify-content: space-evenly;
+    /* margin: 20px  40px; */
+    /* display: flex;
+    justify-content: space-evenly; */
 
 }
 .leftarea{
-    width: 45vw;
+    /* width: 45vw; */
     padding-top: 100px;
 
     p{
@@ -77,36 +78,36 @@ ul{
 }
 
 .rightarea{
-    width: 45vw;
-
+    /* width: 45vw; */
+/* 
     .img{
-        z-index: 900;
-        width: 150px;
-        height: 40  0px;
+        /* z-index: 900; 
+         width: 150px;
+        height: 40  0px; 
         border-radius: 10px;
         /* position: absolute;
         left: 850px;
-        top: 141px; */
+        top: 141px; 
        
-    }
-    .img2{
+    } */
+    /* .img2{
         width: 380px;
         height: 400px;
         position: absolute;
-       /* right: 70px; */
+       /* right: 70px; 
         top: 230px;
         right: 20px;
         z-index:  -1;
-    }
-}
+    }*/
+} 
 .img1{
-    z-index: 900;
+    /* z-index: 900;
     width: 150px;
-    height: 40  0px;
+    height: 40  0px; */
     border-radius: 10px;
-    position: absolute;
+    /* position: absolute;
     left: 830px;
-    top: 141px;
+    top: 141px; */
    
 }
 
