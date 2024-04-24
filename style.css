@@ -5,15 +5,21 @@
 }
 body{
     overflow-x: hidden;
+    
     font-family: "Nunito", sans-serif;
 }
 header{
     display: flex;
     justify-content: space-between;
-    width: 1200px;
-    height: 100%;
-    margin: 20px  auto;
+    align-items: center;
+    width: 100;
+    margin: 20px  40px;
 }
+#navBars{
+    display: none;
+    font-size: 25px;
+}
+    
 ul{
     display: flex;
     justify-content: space-between;
@@ -22,16 +28,29 @@ ul{
     font-family: "nunito";
     font-weight: 800;
 }
+@media screen and (max-width: 900px){
+    #navBars{
+        display: inline;
+        color: black;
+    
+
+    }
+    ul{
+        display: none;
+    }
+}
 
 .heroSection{
-    width: 1200px;
+    width: 100vw;
     height: 100%;
-    margin: 20px  auto;
+    margin: 20px  40px;
+    display: flex;
+    justify-content: space-evenly;
+
 }
 .leftarea{
-    width: 50%;
+    width: 45vw;
     padding-top: 100px;
-
 
     p{
         color: #D93020;
@@ -58,28 +77,29 @@ ul{
 }
 
 .rightarea{
+    width: 45vw;
 
     .img{
         z-index: 900;
         width: 150px;
         height: 40  0px;
         border-radius: 10px;
-        position: absolute;
+        /* position: absolute;
         left: 850px;
-        top: 141px;
-    
-        
+        top: 141px; */
+       
     }
     .img2{
         width: 380px;
         height: 400px;
         position: absolute;
-       right: 20px;
-        top: 200px;
+       /* right: 70px; */
+        top: 230px;
+        right: 20px;
         z-index:  -1;
     }
 }
-.img{
+.img1{
     z-index: 900;
     width: 150px;
     height: 40  0px;
@@ -87,13 +107,15 @@ ul{
     position: absolute;
     left: 830px;
     top: 141px;
-
-    
+   
 }
+
+
+
 .section{
-    width: 100%;
+    width: 100vw;
     height: 526px;
-    /* margin-top:50px; */
+
     background-color: #000;
     z-index: 1;
 
@@ -133,7 +155,6 @@ ul{
         padding: 60px 0;
         margin: 0;
 
-
     }
     .cardflex{
         display: flex;
@@ -154,10 +175,7 @@ ul{
         width: 30%;
 
     }
-
-
 }
-
 
  .firstLine{
     display: flex;
@@ -328,5 +346,3 @@ footer{
         font-weight: bold;
     }
 }
-
-/* HELLO COMMIT CHECK */
